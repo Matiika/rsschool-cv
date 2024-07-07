@@ -1,2 +1,148 @@
-<style>
-</style>
+html { scroll-behavior: smooth; }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+    background-color: #0077B5;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff; 
+  }
+
+
+
+/* Main */
+
+.main {
+    margin-bottom: auto;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.section {
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #000000;
+  }
+
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+  }
+
+  .section-profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #0077B5;
+}
+
+.section-profile-title {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    position: relative;
+    color: #0077B5;
+    font-size: 32px;
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-item {
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+.bottom-section {
+    border-bottom: 0;
+}
+
+.footer {
+    background-color: #0077B5;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.link {
+    color: #0077B5;
+    text-decoration: none;
+}
