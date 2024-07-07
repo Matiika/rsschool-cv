@@ -1,3 +1,4 @@
 # rsschool-cv
+[rsschool-cv/cv](https://matiika.github.io/rsschool-cv/cv)
 
-https://Matiika.github.io/rsschool-cv/
+[rsschool-cv](https://matiika.github.io/rsschool-cv/)
